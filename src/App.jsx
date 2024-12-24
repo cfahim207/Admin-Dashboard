@@ -4,6 +4,8 @@ import ProductsPage from "./pages/ProductsPage"
 import Sidebar from "./components/Sidebar"
 import UsersPage from "./pages/UsersPage"
 import SalesPage from "./pages/SalesPage"
+import OrderPage from "./pages/OrderPage"
+import AnalyticsPage from "./pages/AnalyticsPage"
 
 
 
@@ -37,6 +39,14 @@ function App() {
 
         </Route>
         <Route path="/sales" element={<SalesPage></SalesPage>}>
+
+        </Route>
+
+        <Route path="/orders" element={<OrderPage></OrderPage>}>
+
+        </Route>
+
+        <Route path="/analytics" element={<AnalyticsPage></AnalyticsPage>}>
 
         </Route>
         
