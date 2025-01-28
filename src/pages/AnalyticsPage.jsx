@@ -6,7 +6,7 @@ import OverviewCards from "../components/Analytics/OverviewCards";
 import ProductPerformance from "../components/Analytics/ProductPerformance";
 import RevenueChart from "../components/Analytics/RevenueChart";
 import UserRetention from "../components/Analytics/UserRetention";
-import Header from "../components/common/Header";
+import Header from "../components/Common/Header";
 
 const AnalyticsPage = () => {
     return (

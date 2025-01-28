@@ -1,4 +1,4 @@
-import Header from "../components/Common/Header";
+import Header from '../components/Common/Header';
 import {motion} from 'framer-motion'
 import StatCard from "../components/Common/StatCard";
 import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
